@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Actions used by action.yml (checkout, upload-artifact, download-artifact).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      github-actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: chore
