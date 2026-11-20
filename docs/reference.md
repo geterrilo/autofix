@@ -33,4 +33,4 @@
 
 ## Versions
 
-`@v1` follows the latest `v1.x.y` release. Pin a full commit SHA if your policy requires it.
+`@v1` follows the latest `v1.x.y` release: a workflow moves the `v1` tag each time a release is published. Pin a full commit SHA if your policy requires it.
